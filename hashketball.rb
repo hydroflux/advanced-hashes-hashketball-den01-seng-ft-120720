@@ -311,9 +311,9 @@ def player_with_longest_name
   longest_name
 end
 
-most_points_scored
-winning_team
-player_with_longest_name
+puts most_points_scored
+puts winning_team
+puts player_with_longest_name
 
 
 
