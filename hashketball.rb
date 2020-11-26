@@ -281,15 +281,15 @@ end
 #     end
 #   end
   
-  home_points = home_points.reduce(:+)
-  away_points = away_points.reduce(:+)
+#   home_points = home_points.reduce(:+)
+#   away_points = away_points.reduce(:+)
   
-  if home_points > away_points
-    game_hash[:home][:team_name]
-  elsif home_points < away_points
-    game_hash[:away][:team_name]
-  end
-end
+#   if home_points > away_points
+#     game_hash[:home][:team_name]
+#   elsif home_points < away_points
+#     game_hash[:away][:team_name]
+#   end
+# end
 
 
 def player_with_longest_name
