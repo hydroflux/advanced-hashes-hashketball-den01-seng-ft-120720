@@ -317,7 +317,6 @@ def most_steals
   msp = ""
   most_steals = 0
   
-  
   game_hash.each do |location, team_data|
     team_data.each do |attribute, data|
       if attribute == :players
