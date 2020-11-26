@@ -292,26 +292,26 @@ def winning_team
 end
 
 
-# def player_with_longest_name
-#   # Which player has the longest name?
-#   longest_name = ""
+def player_with_longest_name
+  # Which player has the longest name?
+  longest_name = ""
   
-#   game_hash.each do |location, team_data|
-#     team_data.each do |attribute, data|
-#       if attribute == :players
-#         if attribute[:player_name].length > longest_name
-#           longest_name = attribute[:player_name]
-#         end
-#       end
-#     end
-#   end
+  game_hash.each do |location, team_data|
+    team_data.each do |attribute, data|
+      if attribute == :players
+        if attribute[:player_name].length > longest_name
+          longest_name = attribute[:player_name]
+        end
+      end
+    end
+  end
   
-#   longest_name
-# end
+  longest_name
+end
 
 most_points_scored
 winning_team
-# player_with_longest_name
+player_with_longest_name
 
 
 
