@@ -309,9 +309,9 @@ end
 #   longest_name
 # end
 
-most_points_scored
-winning_team
-player_with_longest_name
+# most_points_scored
+# winning_team
+# player_with_longest_name
 
 
 
