@@ -241,25 +241,25 @@ end
 
 
 ### BONUS METHODS ###
-def most_points_scored
-  # Which player has the most points?
-  mvp = ""
-  points_scored = 0
+# def most_points_scored
+#   # Which player has the most points?
+#   mvp = ""
+#   points_scored = 0
   
-  game_hash.each do |location, team_data|
-    team_data.each do |attribute, data|
-      if attribute == :players
-        data.each do |data_item|
-          if data_item[:points] > points_scored
-            mvp = data_item[:player_name]
-            points_scored = data_item[:points]
-          end
-        end
-      end
-    end
-  end
-  mvp
-end
+#   game_hash.each do |location, team_data|
+#     team_data.each do |attribute, data|
+#       if attribute == :players
+#         data.each do |data_item|
+#           if data_item[:points] > points_scored
+#             mvp = data_item[:player_name]
+#             points_scored = data_item[:points]
+#           end
+#         end
+#       end
+#     end
+#   end
+#   mvp
+# end
 
 
 def winning_team
