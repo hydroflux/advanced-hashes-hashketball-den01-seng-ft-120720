@@ -294,7 +294,7 @@ end
 
 def player_with_longest_name
   # Which player has the longest name?
-  longest_name =
+  longest_name = ""
   
   game_hash.each do |location, team_data|
     team_data.each do |attribute, data|
