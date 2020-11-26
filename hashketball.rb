@@ -301,7 +301,7 @@ def player_with_longest_name
       if attribute == :players
         data.each do |data_item|
           if data_item[:player_name].length > longest_name
-            longest_name = attribute[:player_name]
+            longest_name = data_item[:player_name]
           end
         end
       end
