@@ -343,5 +343,5 @@ end
 puts most_points_scored
 puts winning_team
 puts player_with_longest_name
-puts most steals
+puts most_steals
 puts long_name_steals_a_ton?
