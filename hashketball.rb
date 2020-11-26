@@ -314,14 +314,14 @@ end
 
 def most_steals
   # Which player has the most steals?
-  longest_name = ""
+  most_steals = ""
   
   game_hash.each do |location, team_data|
     team_data.each do |attribute, data|
       if attribute == :players
         data.each do |data_item|
-          if data_item[:player_name].length > longest_name.length
-            longest_name = data_item[:player_name]
+          if data_item[:steals] > most_steals
+            most_steals = data_item[:player_name]
           end
         end
       end
