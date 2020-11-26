@@ -313,7 +313,7 @@ end
 
 
 def most_steals
-  # Which player has the longest name?
+  # Which player has the most steals?
   longest_name = ""
   
   game_hash.each do |location, team_data|
