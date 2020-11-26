@@ -335,12 +335,14 @@ def most_steals
   longest_name
 end
 
+
+def long_name_steals_a_ton?
+  # Return true if the player with the longest name had the most steals
+  longest_name == most_steals
+end
+
 puts most_points_scored
 puts winning_team
 puts player_with_longest_name
-
-
-
-# def long_name_steals_a_ton?
-#   # Return true if the player with the longest name had the most steals
-# end
+puts most steals
+puts long_name_steals_a_ton?
