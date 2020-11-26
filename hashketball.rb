@@ -292,7 +292,7 @@ def winning_team
 end
 
 
-def player_with_longest_name
+def player_with_longest_name(game_hash)
   # Which player has the longest name?
   longest_name = ""
   
