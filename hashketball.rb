@@ -331,7 +331,7 @@ def most_steals
     msp
   end
   
-  longest_name
+  msp
 end
 
 
